@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vertuli/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Michael Vertuli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vertuli/resume/issues"
+  },
+  "homepage": "https://github.com/vertuli/resume#readme",
+  "dependencies": {
+    "jsonresume-theme-spartan": "^0.3.0",
+    "resume-cli": "^1.2.7"
+  }
+}

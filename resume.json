@@ -1,0 +1,96 @@
+{
+  "basics": {
+    "name": "Michael Francis Vertuli",
+    "label": "Software Engineer",
+    "website": "https://www.vertuli.com",
+    "email": "michael@vertuli.com",
+    "phone": "(202) 642-8256",
+    "location": {
+      "city": "Los Angeles",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "vertuli",
+        "url": "https://www.linkedin.com/in/vertuli/"
+      },
+      {
+        "network": "github",
+        "username": "vertuli",
+        "url": "https://github.com/vertuli"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Factual",
+      "position": "Software Engineer",
+      "startDate": "2019-03-01",
+      "highlights": [
+        "Built critical Spark pipelines integrated with Hive and AWS and automated with Airflow.",
+        "Put machine learning models into production with spark.ml.",
+        "Wrote data science investigations including assessing quality of potential data vendors.",
+        "Hacked together various internal tools and Django front ends for company-wide use."
+      ]
+    },
+    {
+      "company": "Newton China",
+      "position": "Founder and CEO",
+      "startDate": "2011-07-01",
+      "endDate": "2016-06-01",
+      "highlights": [
+        "Founded and led a ten-person team advising students aiming to study in the U.S.",
+        "Developed tools to scrape and clean admissions data for staff and students.",
+        "Provided free service to disadvantaged students and raised funds for local charities."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pennsylvania State University",
+      "area": "Physics",
+      "studyType": "Bachelor",
+      "startDate": "2004-08-01",
+      "endDate": "2008-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "Apache Airflow",
+        "django",
+        "scikit-learn"
+      ]
+    },
+    {
+      "name": "Scala",
+      "level": "Advanced",
+      "keywords": [
+        "spark",
+        "spark.ml"
+      ]
+    },
+    {
+      "name": "SQL",
+      "level": "Advanced",
+      "keywords": [
+        "Apache Hive",
+        "postgres",
+        "AWS RDS"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": [
+        "CloudFormation",
+        "SAM CLI",
+        "API Gateway"
+      ]
+    }
+  ]
+}
