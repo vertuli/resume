@@ -21,6 +21,10 @@
   "homepage": "https://github.com/vertuli/resume#readme",
   "dependencies": {
     "jsonresume-theme-spartan": "^0.3.0",
-    "resume-cli": "^1.2.7"
+    "resume-cli": "^1.2.7",
+    "lodash": ">=4.17.12",
+    "minimist": ">=1.2.2",
+    "underscore.string": ">=3.3.5",
+    "mustache": ">=2.2.1"
   }
 }
