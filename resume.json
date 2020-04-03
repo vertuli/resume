@@ -1,10 +1,12 @@
 {
   "basics": {
-    "name": "Michael Francis Vertuli",
+    "name": "Michael F Vertuli",
     "label": "Software Engineer",
-    "website": "https://www.vertuli.com",
+    "picture": "https://vertuli.com/static/headshot.jpeg",
     "email": "michael@vertuli.com",
     "phone": "(202) 642-8256",
+    "website": "https://www.vertuli.com",
+    "summary": "Glorified data plumber, math and physics teacher, recovering China expat, education entrepreneur, and first generation college student.",
     "location": {
       "city": "Los Angeles",
       "countryCode": "US",
@@ -12,12 +14,12 @@
     },
     "profiles": [
       {
-        "network": "linkedin",
+        "network": "LinkedIn",
         "username": "vertuli",
         "url": "https://www.linkedin.com/in/vertuli/"
       },
       {
-        "network": "github",
+        "network": "GitHub",
         "username": "vertuli",
         "url": "https://github.com/vertuli"
       }
@@ -27,33 +29,98 @@
     {
       "company": "Factual",
       "position": "Software Engineer",
+      "location": "Los Angeles, CA, USA",
+      "website": "https://www.factual.com",
       "startDate": "2019-03-01",
       "highlights": [
-        "Built critical Spark pipelines integrated with Hive and AWS and automated with Airflow.",
-        "Put machine learning models into production with spark.ml.",
-        "Wrote data science investigations including assessing quality of potential data vendors.",
-        "Hacked together various internal tools and Django front ends for company-wide use."
+        "Quickly learned new languages and software to architect, implement, and own critical tools and pipelines, earning two promotions within my first year.",
+        "Collaborated cross-functionally with product managers, marketing, and others to deliver internal and customer-facing applications and large-scale data products.",
+        "Built machine learning pipelines to model and segment audiences while embracing test-driven development, monitoring, and alerting in both local and cloud environments.",
+        "Helped others understand our work at the intersection of data science and engineering through regularly published data investigations, company-wide presentations, and mentoring."
+      ]
+    },
+    {
+      "company": "Self Employed",
+      "position": "Private Tutor",
+      "location": "Washington, DC, USA & Los Angeles, CA, USA",
+      "website": "https://tutor.vertuli.com",
+      "startDate": "2017-01-01",
+      "endDate": "2019-03-01",
+      "highlights": [
+        "Worked with dozens of college and high school students to improve confidence and skills with math and physics between Washington, DC and Los Angeles, CA."
+      ]
+    },
+    {
+      "company": "Landon School",
+      "position": "Mathematics Teacher",
+      "location": "Bethesda, MD, USA",
+      "website": "https://www.landon.net",
+      "startDate": "2016-08-01",
+      "endDate": "2017-01-01",
+      "highlights": [
+        "Redeveloped math syllabus to emphasize statistical thinking, real-world modeling, and practical applications, and coached the 9th grade boys' soccer team."
       ]
     },
     {
       "company": "Newton China",
       "position": "Founder and CEO",
+      "location": "Shanghai, China",
+      "website": "https://newton.vertuli.com",
       "startDate": "2011-07-01",
-      "endDate": "2016-06-01",
+      "endDate": "2016-08-01",
       "highlights": [
-        "Founded and led a ten-person team advising students aiming to study in the U.S.",
-        "Developed tools to scrape and clean admissions data for staff and students.",
-        "Provided free service to disadvantaged students and raised funds for local charities."
+        "Founded a Shanghai-based education consultancy and lead a team of counselors, marketers, and account managers serving Shanghai's top students aiming to study abroad in the U.S.",
+        "Quickly pivoted from providing test preparation to fill a niche demand for long-term, holistic, and honest academic planning and guidance beyond test scores.",
+        "Developed data scraping tools to collect and process public application profiles and admissions data into Salesforce, helping inform our staff and track student metrics."
       ]
+    },
+    {
+      "company": "Shanghai Normal University",
+      "position": "Physics Teacher",
+      "location": "Shanghai, China",
+      "website": "http://en.ulink.cn/Shanghai/",
+      "startDate": "2009-07-01",
+      "endDate": "2011-07-01",
+      "highlights": [
+        "Standardized department assessments and developed system to track and report student metrics.",
+        "Assisted IT with implementing its first school management system (SIMS) and Moodle integration."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Heart to Heart Shanghai",
+      "position": "Sponsor and Fundraiser",
+      "website": "https://www.h2hsh.com",
+      "startDate": "2012-02-01",
+      "endDate": "2013-03-01",
+      "summary": "Raised funds for two child heart surgeries at annual student Battle of the Bands"
     }
   ],
   "education": [
     {
+      "institution": "Colorado State University",
+      "area": "Astrophysics",
+      "studyType": "Graduate Studies",
+      "startDate": "2008-06-01",
+      "endDate": "2008-11-01",
+      "summary": "Analyzed fluorescence detector calibration data from the Pierre Auger Cosmic Ray Observatory using Python, MATLAB, and Mathematica to find anomalies."
+    },
+    {
       "institution": "Pennsylvania State University",
-      "area": "Physics",
+      "area": "Physics, Mathematics",
       "studyType": "Bachelor",
+      "startDate": "2006-06-01",
+      "endDate": "2008-06-01",
+      "summary": "Designed, collected, and analyzed data using Python and ROOT from an experiment measuring angular dependence of fluorescence scattering from a radioactive source."
+    },
+    {
+      "institution": "Wilkes University",
+      "area": "Electrical Engineering",
+      "studyType": "Undergraduate Studies",
       "startDate": "2004-08-01",
-      "endDate": "2008-05-01"
+      "endDate": "2006-06-01",
+      "summary": "Tutored physics, assisted with undergraduate mechanics course, and imaged metallic whiskers with scanning electron microscopes."
     }
   ],
   "skills": [
@@ -61,8 +128,8 @@
       "name": "Python",
       "level": "Master",
       "keywords": [
-        "Apache Airflow",
-        "django",
+        "Airflow",
+        "Django",
         "scikit-learn"
       ]
     },
@@ -70,7 +137,8 @@
       "name": "Scala",
       "level": "Advanced",
       "keywords": [
-        "spark",
+        "Spark",
+        "Functional Programming",
         "spark.ml"
       ]
     },
@@ -78,9 +146,8 @@
       "name": "SQL",
       "level": "Advanced",
       "keywords": [
-        "Apache Hive",
-        "postgres",
-        "AWS RDS"
+        "Hive",
+        "Postgres"
       ]
     },
     {
@@ -88,9 +155,33 @@
       "level": "Intermediate",
       "keywords": [
         "CloudFormation",
-        "SAM CLI",
-        "API Gateway"
+        "API Gateway",
+        "Fargate",
+        "DynamoDB"
       ]
+    },
+    {
+      "name": "Other",
+      "level": "Beginner",
+      "keywords": [
+        "JavaScript",
+        "GraphQL",
+        "Kubernetes"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Chinese",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Cebuano",
+      "fluency": "Basic"
     }
   ]
 }
