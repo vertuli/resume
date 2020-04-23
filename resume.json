@@ -6,7 +6,7 @@
     "email": "michael@vertuli.com",
     "phone": "(202) 642-8256",
     "website": "https://vertuli.com",
-    "summary": "Architecting pipelines, plumbing big data, building up models, and extracting insights while keeping it clean with Spark, Hadoop, and AWS using Scala and Python.",
+    "summary": "Architecting big data pipelines, deploying machine learning models, and extracting insights with Scala, Spark, Python, and SQL.",
     "location": {
       "city": "Los Angeles",
       "countryCode": "US",
@@ -33,10 +33,11 @@
       "website": "https://www.factual.com",
       "startDate": "2019-03-01",
       "highlights": [
-        "Quickly learned new languages and software to architect, implement, and own critical tools and pipelines, earning two promotions within my first year.",
-        "Collaborated cross-functionally with product managers, marketing, and others to deliver internal and customer-facing applications and large-scale data products.",
-        "Built machine learning pipelines to model and segment audiences while embracing test-driven development, monitoring, and alerting in both local and cloud environments.",
-        "Helped others understand our work at the intersection of data science and engineering through regularly published data investigations, company-wide presentations, and mentoring."
+        "Architected, implemented, deployed, and maintained large business-critical data pipelines in Hadoop with Hive, SQL, and Airflow.",
+        "Collaborated cross-functionally with product managers and marketing to deliver data dashboards and visualizations with Django in Python.",
+        "Designed and deployed predictive machine learning pipelines using Spark in Scala to model audience demographics and customer segmentation.",
+        "Conducted regular data investigations, regularly releasing Jupyter notebooks and giving company presentations.",
+	"Promoted twice within my first year and volunteered with recruitment efforts and engineering mentoring program."
       ]
     },
     {
