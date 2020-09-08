@@ -6,7 +6,7 @@
     "email": "michael@vertuli.com",
     "phone": "(202) 642-8256",
     "website": "https://vertuli.com",
-    "summary": "Architecting big data pipelines, deploying machine learning models, and extracting insights with Scala, Spark, Python, and SQL.",
+    "summary": "Architecting big data pipelines, deploying machine learning models, and extracting insights with Scala, Spark, AWS, Python, and SQL.",
     "location": {
       "city": "Los Angeles",
       "countryCode": "US",
@@ -34,11 +34,11 @@
       "startDate": "2019-03-01",
       "endDate": "2020-04-01",
       "highlights": [
-        "Architected, implemented, deployed, and maintained large business-critical data pipelines in Hadoop with Hive, SQL, and Airflow.",
-        "Collaborated cross-functionally with product managers and marketing to deliver data dashboards and visualizations with Django in Python.",
-        "Designed and deployed predictive machine learning pipelines using Spark in Scala to model audience demographics and customer segmentation.",
-        "Conducted regular data investigations, regularly releasing Jupyter notebooks and giving company presentations.",
-	"Promoted twice within my first year and volunteered with recruitment efforts and engineering mentoring program."
+        "Architected, implemented, deployed, and maintained large scale Spark pipelines in Scala responsible for generating our core data products.",
+        "Built dashboards with Django in Python for exploring pipeline outputs and monitoring data quality.",
+        "Designed and deployed machine learning models to predict audience demographics and augment customer segments.",
+        "Investigated data sources and our data products, regularly releasing Jupyter notebook reports to help management.",
+				"Volunteered with recruitment efforts and engineering mentoring program."
       ]
     },
     {
@@ -126,64 +126,28 @@
     }
   ],
   "skills": [
-    {
-      "name": "Python",
-      "level": "Master",
-      "keywords": [
-        "Airflow",
-        "Django",
-        "scikit-learn"
-      ]
-    },
-    {
-      "name": "Scala",
-      "level": "Advanced",
-      "keywords": [
-        "Spark",
-        "Functional Programming",
-        "spark.ml"
-      ]
-    },
-    {
-      "name": "SQL",
-      "level": "Advanced",
-      "keywords": [
-        "Hive",
-        "Postgres"
-      ]
-    },
-    {
-      "name": "AWS",
-      "level": "Intermediate",
-      "keywords": [
-        "CloudFormation",
-        "API Gateway",
-        "Fargate",
-        "DynamoDB"
-      ]
-    },
-    {
-      "name": "Other",
-      "level": "Beginner",
-      "keywords": [
-        "JavaScript",
-        "GraphQL",
-        "Kubernetes"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native"
-    },
-    {
-      "language": "Chinese",
-      "fluency": "Intermediate"
-    },
-    {
-      "language": "Cebuano",
-      "fluency": "Basic"
-    }
+		{
+			"name": "Languages",
+			"level": "",
+			"keywords": [
+				"Scala",
+				"Python",
+				"SQL"
+			]
+		},
+		{
+			"name": "Toolbelt",
+			"level": "",
+			"keywords": [
+				"Spark",
+				"AWS",
+				"Hive",
+				"Airflow",
+				"spark.ml",
+				"scikit-learn",
+				"Django",
+				"DynamoDB"
+			]
+		}
   ]
 }
