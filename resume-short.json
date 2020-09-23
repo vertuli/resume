@@ -1,0 +1,77 @@
+{
+  "basics": {
+    "name": "Michael F Vertuli",
+    "label": "Software Engineer",
+    "picture": "https://vertuli.com/static/headshot.jpeg",
+    "email": "michael@vertuli.com",
+    "phone": "(202) 642-8256",
+    "website": "https://vertuli.com",
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "vertuli",
+        "url": "https://www.linkedin.com/in/vertuli/"
+      },
+      {
+        "network": "GitHub",
+        "username": "vertuli",
+        "url": "https://github.com/vertuli"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Factual",
+      "position": "Software Engineer",
+      "location": "Los Angeles, CA, USA",
+      "startDate": "2019-03-01",
+      "endDate": "2020-04-01",
+      "highlights": [
+        "Architected, implemented, deployed, and maintained large scale Spark pipelines in Scala responsible for generating our core data products.",
+        "Built dashboards with Django in Python for exploring pipeline outputs and monitoring data quality.",
+        "Designed and deployed machine learning models to predict audience demographics and augment customer segments.",
+        "Investigated data sources and our data products, regularly releasing Jupyter notebook reports to help management.",
+				"Volunteered with recruitment efforts and engineering mentoring program."
+      ]
+    },
+    {
+      "company": "Newton China",
+      "position": "Founder and CEO",
+      "location": "Shanghai, China",
+      "startDate": "2011-07-01",
+      "endDate": "2016-08-01",
+      "highlights": [
+        "Founded a Shanghai-based education consultancy and lead a team of counselors, marketers, and account managers serving Shanghai's top students aiming to study abroad in the U.S.",
+        "Quickly pivoted from providing test preparation to fill a niche demand for long-term, holistic, and honest academic planning and guidance beyond test scores.",
+        "Developed data scraping tools to collect and process public application profiles and admissions data into Salesforce, helping inform our staff and track student metrics."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Pennsylvania State University",
+      "studyType": "B.S., Physics",
+      "startDate": "2006-06-01",
+      "endDate": "2008-06-01"
+    }
+  ],
+  "skills": [
+		{
+			"name": "Languages and Tools",
+			"level": "",
+			"keywords": [
+				"Scala",
+				"Python",
+				"SQL",
+				"Spark",
+				"AWS",
+				"Hive",
+				"Airflow",
+				"spark.ml",
+				"scikit-learn",
+				"Django",
+				"DynamoDB"
+			]
+		}
+  ]
+}
