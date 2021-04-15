@@ -20,6 +20,16 @@
     ]
   },
   "work": [
+		{
+			"company": "Datasembly",
+			"position": "Software Engineer",
+			"location": "Remote",
+			"startDate": "2020-11-01",
+			"highlights": [
+				"Developing new web and mobile scrapers to collect store and product listing data from major grocers and retailers, while standardizing existing scrapers to better enable test-driven development and faster debugging.",
+				"Deeply diving into a diverse range of mobile and web architectures, utilizing extensive proxy systems, reverse engineering, headless browsing, etc."
+			]
+		},
     {
       "company": "Factual",
       "position": "Software Engineer",
@@ -27,11 +37,8 @@
       "startDate": "2019-03-01",
       "endDate": "2020-04-01",
       "highlights": [
-        "Architected, implemented, deployed, and maintained large scale Spark pipelines in Scala responsible for generating our core data products.",
-        "Built dashboards with Django in Python for exploring pipeline outputs and monitoring data quality.",
-        "Designed and deployed machine learning models to predict audience demographics and augment customer segments.",
-        "Investigated data sources and our data products, regularly releasing Jupyter notebook reports to help management.",
-				"Volunteered with recruitment efforts and engineering mentoring program."
+        "Architected, implemented, deployed, and maintained large scale Spark pipelines and machine learning models to generate core data products and predict audience demographics and customer segments.",
+        "Released investigations of our data using Jupyter notebooks and Django dashboards."
       ]
     },
     {
@@ -41,9 +48,8 @@
       "startDate": "2011-07-01",
       "endDate": "2016-08-01",
       "highlights": [
-        "Founded a Shanghai-based education consultancy and lead a team of counselors, marketers, and account managers serving Shanghai's top students aiming to study abroad in the U.S.",
-        "Quickly pivoted from providing test preparation to fill a niche demand for long-term, holistic, and honest academic planning and guidance beyond test scores.",
-        "Developed data scraping tools to collect and process public application profiles and admissions data into Salesforce, helping inform our staff and track student metrics."
+        "Founded a Shanghai-based education consultancy and led a team of counselors, marketers, and account managers serving Shanghai's top students studying abroad.",
+        "Provided long-term, holistic, and honest academic planning and guidance."
       ]
     }
   ],
@@ -55,22 +61,27 @@
       "endDate": "2008-06-01"
     }
   ],
-  "skills": [
+	"skills": [
 		{
-			"name": "Languages and Tools",
+			"name": "Toolbelt",
 			"level": "",
 			"keywords": [
 				"Scala",
 				"Python",
 				"SQL",
 				"Spark",
-				"AWS",
-				"Hive",
+				"Snowflake",
 				"Airflow",
-				"spark.ml",
-				"scikit-learn",
+				"Hive",
+				"Postgres",
+				"AWS",
+				"DynamoDB",
+				"GCP",
+				"BigQuery",
+				"Snowflake",
+				"Play",
 				"Django",
-				"DynamoDB"
+				"spark.ml"
 			]
 		}
   ]

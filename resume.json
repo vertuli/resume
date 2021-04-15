@@ -6,11 +6,11 @@
     "email": "michael@vertuli.com",
     "phone": "(202) 642-8256",
     "website": "https://vertuli.com",
-    "summary": "Architecting big data pipelines, deploying machine learning models, and extracting insights with Scala, Spark, AWS, Python, and SQL.",
+    "summary": "Collector of data, builder of pipelines, deployer of models, and extractor of insights.",
     "location": {
-      "city": "Los Angeles",
+      "city": "Philadelphia",
       "countryCode": "US",
-      "region": "California"
+      "region": "Pennsylvania"
     },
     "profiles": [
       {
@@ -26,6 +26,17 @@
     ]
   },
   "work": [
+		{
+			"company": "Datasembly",
+			"position": "Software Engineer",
+			"location": "Remote",
+			"website": "https://www.datasembly.com",
+			"startDate": "2020-11-01",
+			"highlights": [
+				"Developing new web and mobile scrapers to collect store and product listing data from major grocers and retailers, while standardizing existing scrapers to better enable test-driven development and faster debugging.",
+				"Deeply diving into a diverse range of mobile and web architectures, utilizing extensive proxy systems, reverse engineering, headless browsing, etc."
+			]
+		},
     {
       "company": "Factual",
       "position": "Software Engineer",
@@ -34,12 +45,9 @@
       "startDate": "2019-03-01",
       "endDate": "2020-04-01",
       "highlights": [
-        "Architected, implemented, deployed, and maintained large scale Spark pipelines in Scala responsible for generating our core data products.",
-        "Built dashboards with Django in Python for exploring pipeline outputs and monitoring data quality.",
-        "Designed and deployed machine learning models to predict audience demographics and augment customer segments.",
-        "Investigated data sources and our data products, regularly releasing Jupyter notebook reports to help management.",
-				"Volunteered with recruitment efforts and engineering mentoring program."
-      ]
+        "Architected, implemented, deployed, and maintained large scale Spark pipelines and machine learning models to generate core data products and predict audience demographics and customer segments.",
+				"Released investigations of our data using Jupyter notebooks and Django dashboards."
+			]
     },
     {
       "company": "Self Employed",
@@ -49,7 +57,7 @@
       "startDate": "2017-01-01",
       "endDate": "2019-03-01",
       "highlights": [
-        "Worked with dozens of college and high school students to improve confidence and skills with math and physics between Washington, DC and Los Angeles, CA."
+        "Helped dozens of students with math and physics."
       ]
     },
     {
@@ -60,20 +68,19 @@
       "startDate": "2016-08-01",
       "endDate": "2017-01-01",
       "highlights": [
-        "Redeveloped math syllabus to emphasize statistical thinking, real-world modeling, and practical applications, and coached the 9th grade boys' soccer team."
+        "Taught upper school math and helped coach freshman soccer."
       ]
     },
     {
-      "company": "Newton China",
+      "company": "Newton",
       "position": "Founder and CEO",
       "location": "Shanghai, China",
       "website": "https://newton.vertuli.com",
       "startDate": "2011-07-01",
       "endDate": "2016-08-01",
       "highlights": [
-        "Founded a Shanghai-based education consultancy and lead a team of counselors, marketers, and account managers serving Shanghai's top students aiming to study abroad in the U.S.",
-        "Quickly pivoted from providing test preparation to fill a niche demand for long-term, holistic, and honest academic planning and guidance beyond test scores.",
-        "Developed data scraping tools to collect and process public application profiles and admissions data into Salesforce, helping inform our staff and track student metrics."
+				"Founded a Shanghai-based education consultancy and led a team of counselors, marketers, and account managers serving Shanghai's top students studying abroad.",
+				"Provided long-term, holistic, and honest academic planning and guidance."
       ]
     },
     {
@@ -84,8 +91,7 @@
       "startDate": "2009-07-01",
       "endDate": "2011-07-01",
       "highlights": [
-        "Standardized department assessments and developed system to track and report student metrics.",
-        "Assisted IT with implementing its first school management system (SIMS) and Moodle integration."
+        "Taught CIE A-Level Physics to upper school juniors and seniors."
       ]
     }
   ],
@@ -106,7 +112,7 @@
       "studyType": "Graduate Studies",
       "startDate": "2008-06-01",
       "endDate": "2008-11-01",
-      "summary": "Analyzed fluorescence detector calibration data from the Pierre Auger Cosmic Ray Observatory using Python, MATLAB, and Mathematica to find anomalies."
+      "summary": "Analyzed data from the Pierre Auger Cosmic Ray Observatory."
     },
     {
       "institution": "Pennsylvania State University",
@@ -114,7 +120,7 @@
       "studyType": "Bachelor",
       "startDate": "2006-06-01",
       "endDate": "2008-06-01",
-      "summary": "Designed, collected, and analyzed data using Python and ROOT from an experiment measuring angular dependence of fluorescence scattering from a radioactive source."
+      "summary": "Collected and analyzed data from atmospheric fluorescence scattering."
     },
     {
       "institution": "Wilkes University",
@@ -122,7 +128,7 @@
       "studyType": "Undergraduate Studies",
       "startDate": "2004-08-01",
       "endDate": "2006-06-01",
-      "summary": "Tutored physics, assisted with undergraduate mechanics course, and imaged metallic whiskers with scanning electron microscopes."
+      "summary": "Tutored physics, lab assistant, and scanning electron microscopy."
     }
   ],
   "skills": [
@@ -139,14 +145,19 @@
 			"name": "Toolbelt",
 			"level": "",
 			"keywords": [
-				"Spark",
-				"AWS",
-				"Hive",
-				"Airflow",
-				"spark.ml",
-				"scikit-learn",
+				"Spark", 
+				"Snowflake", 
+				"Airflow", 
+				"Hive", 
+				"Postgres", 
+				"AWS", 
+				"DynamoDB", 
+				"GCP", 
+				"BigQuery", 
+				"Snowflake", 
+				"Play", 
 				"Django",
-				"DynamoDB"
+				"spark.ml"	
 			]
 		}
   ]
